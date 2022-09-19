@@ -20,7 +20,6 @@ describe('PokemonOptions Component', () => {
   it('debe mostrar 4 opciones correctamente', () => {
     const liTags = wrapper.findAll('li');
     expect(liTags.length).toBe(4);
-    console.log(liTags[0].text());
     expect(liTags[0].text()).toBe('bulbasaur');
     expect(liTags[1].text()).toBe('ivysaur');
     expect(liTags[2].text()).toBe('venusaur');
