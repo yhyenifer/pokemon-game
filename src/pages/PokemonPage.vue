@@ -17,6 +17,7 @@
 <script>
 import PokemonPicture from '@/components/PokemonPicture.vue';
 import PokemonOptions from '@/components/PokemonOptions.vue';
+// eslint-disable-next-line import/no-named-as-default
 import getPokemonOptions from '@/helpers/getPokemonOptions';
 
 export default {
